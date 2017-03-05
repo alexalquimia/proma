@@ -1,0 +1,70 @@
+@media screen and (max-width: 960px) {
+
+/* grid4 */
+	.grid4 .col {width: 31.2%;}
+	.grid4 .col:nth-of-type(4n+1) { margin-left: 3.2%; clear: none; }
+	.grid4 .col:nth-of-type(3n+1) { margin-left: 0; clear: left; }
+		
+	#menu { text-align: center; margin: 33px 0 0 0;}
+		
+	#menu li a.op ,.fijo ul#menu li a.op{ display: block;  padding: 10px 17px; font-size: 1.8em;}
+	
+	.row {width: 100%; display: table-row;}
+	
+	.hlf {width: 100%; display: block; }
+		 
+	.der, .izq, .hlf .der, .hlf .izq { width: 100%; float: none; margin: 0 auto; text-align: center;}
+		
+	#menu li.line, { display: block;}
+	
+	#pasos-comprador { background-image: none;}
+	
+	div#horario {position: relative; margin: 0 auto; display: block; width: 100%; top: 0; right: 0;}
+	
+	.promo-grande, #filtros {width: 100%;}
+	
+	.dn900 { display: none; }
+	
+	.bg-menu-res { background-color: #0d132b !important; background-image:url(images/bg-pie.jpg) !important; border-bottom: 1px solid #0d132b; background-size: 100% !important;}
+	
+	.fijo .home .bg-menu-res { background: transparent !important;}
+	
+	.txt p { font-size: 1.74em; }
+	
+	#directorio-expositores .wrapp{ width: 100% !important;}
+	
+	.marder span { font-size: 1.5em;}
+	
+	.nota { padding: 13px;}	
+	
+	#idiomas { right: 60px;}
+}
+
+@media screen and (max-width: 700px) { 
+	
+	/* grid4 */
+	.grid4 .col {width: 48.4%;}
+	.grid4 .col:nth-of-type(3n+1) {margin-left: 3.2%; clear: none; }
+	.grid4 .col:nth-of-type(2n+1) { margin-left: 0;clear: left;}
+
+	/* grid3 */
+	.grid3 .col { width: 48.4%;}
+	.grid3 .col:nth-of-type(3n+1) {margin-left: 3.2%;clear: none;}
+	.grid3 .col:nth-of-type(2n+1) {margin-left: 0; clear: left;}
+	
+	.item, .item2, .item3, .item4, .item5 { width: 100% !important;}
+	.padd {padding: 80px 0;}
+	
+	.col-pie {width: 100% !important; text-align: center;}
+	
+	.dn700, #filtros { display: none !important;}
+	
+	.botons li { width: 100%; }
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	.col {width: 100% !important; margin-left: 0 !important; clear: none !important; text-align:center; }
+	.promo {display: none;}					
+}
